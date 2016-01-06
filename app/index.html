@@ -17,8 +17,8 @@
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="/bower_components/css/bootstrap-material-design.css" rel="stylesheet">
-    <link href="/bower_components/dist/css/ripples.min.css" rel="stylesheet">
+    <link href="/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" rel="stylesheet">
+    <link href="/bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
 
 
     <!-- build:css styles/main.css -->
@@ -30,9 +30,61 @@
     <!-- endbuild -->
 </head>
 
-<body>
+<body class="container-fluid">
 
+    <div class="container-fluid">
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button data-target=".navbar-responsive-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="javascript:void(0)" class="navbar-brand">Brand</a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="javascript:void(0)">Active</a></li>
+                        <li><a href="javascript:void(0)">Link</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" data-target="#" href="http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html">Dropdown
+                        <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)">Action</a></li>
+                                <li><a href="javascript:void(0)">Another action</a></li>
+                                <li><a href="javascript:void(0)">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Dropdown header</li>
+                                <li><a href="javascript:void(0)">Separated link</a></li>
+                                <li><a href="javascript:void(0)">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group is-empty">
+                            <input type="text" placeholder="Search" class="form-control col-sm-8">
+                            <span class="material-input"></span></div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="javascript:void(0)">Link</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" data-target="#" href="http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html">Dropdown
+                        <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)">Action</a></li>
+                                <li><a href="javascript:void(0)">Another action</a></li>
+                                <li><a href="javascript:void(0)">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="javascript:void(0)">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
+    </div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -40,7 +92,10 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/bower_components/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="/bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+    <!--    <script src="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.js"> -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
