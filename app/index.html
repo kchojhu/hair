@@ -32,7 +32,7 @@
 
 <body>
     <header>
-        <div class="navbar navbar-default">
+        <div class="navbar navbar-default navbar-fixed-top cbp-af-header">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button data-target=".navbar-responsive-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
@@ -40,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="javascript:void(0)" class="navbar-brand">Brand</a>
+                    <a href="#Home" class="navbar-brand"><img src="resource/img/hairtalk-dark_600x211.png"> </a>
                 </div>
                 <div class="navbar-collapse collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -57,6 +57,12 @@
 
     </header>
 
+    <div class="container-fluid">
+        <div class="row" style="">
+            <div class="fill-screen" style="background-image: url(resource/img/hairtalk-main.png)"></div>
+        </div>
+    </div>
+
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -66,6 +72,9 @@
     <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="/bower_components/bootstrap-material-design/dist/js/material.js"></script>
     <script src="/bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="/bower_components/AnimatedHeader/js/classie.js"></script>
+    <script src="/bower_components/AnimatedHeader/js/cbpAnimatedHeader.js"></script>
+
     <!--    <script src="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.js"> -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
