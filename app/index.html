@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" rel="stylesheet">
     <link href="/bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
+    <link href="/bower_components/formstone/dist/css/background.css" rel="stylesheet">
+
 
 
     <!-- build:css styles/main.css -->
@@ -31,7 +33,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="video-wallpaper">
         <div class="navbar navbar-default navbar-fixed-top cbp-af-header">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -58,9 +60,11 @@
     </header>
 
     <div class="container-fluid">
+        <div class="row content-filler"></div>
         <div class="row" style="">
-            <div class="fill-screen" style="background-image: url(resource/img/hairtalk-main.png)"></div>
+            <div class="fill-screen fixed-attachment" style="background-image: url(resource/img/hairtalk-main.png)"></div>
         </div>
+        <div class="row content-filler"></div>
     </div>
 
     <!-- build:js scripts/vendor.js -->
@@ -74,7 +78,9 @@
     <script src="/bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
     <script src="/bower_components/AnimatedHeader/js/classie.js"></script>
     <script src="/bower_components/AnimatedHeader/js/cbpAnimatedHeader.js"></script>
-
+    <script src="/bower_components/formstone/dist/js/core.js"></script>
+    <script src="/bower_components/formstone/dist/js/transition.js"></script>
+    <script src="/bower_components/formstone/dist/js/background.js"></script>
     <!--    <script src="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.js"> -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>

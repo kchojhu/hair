@@ -6,4 +6,11 @@ $(function () {
     $(window).on("load resize", function () {
         $(".fill-screen").css("height", window.innerHeight);
     });
+
+    $("#video-wallpaper").background({
+        source: {
+            poster: "resource/img/hairtalk-main.png",
+            video: "www.youtube.com/watch?v=IqTtV-LsTqY"
+        }
+    })
 });
