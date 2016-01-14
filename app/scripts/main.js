@@ -9,8 +9,8 @@ $(function () {
 
     $("#video-wallpaper").background({
         source: {
-            poster: "resource/img/hairtalk-main.png",
-            video: "www.youtube.com/watch?v=IqTtV-LsTqY"
+            poster: "resource/img/Salon_Banner.jpg",
+            //video: "www.youtube.com/watch?v=IqTtV-LsTqY"
         }
     })
 });

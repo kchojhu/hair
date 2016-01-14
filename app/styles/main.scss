@@ -4,23 +4,66 @@
     transition: all 0.5s;
 }
 
-.cbp-af-header .navbar-brand {
-    visibility: hidden;
+.text-banner {
+    margin: 40px 20px;
 }
 
+.text-banner h1 {
+    font-size: 28px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-banner h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -35px;
+    height: 2px;
+    width: 70px;
+    background-color: #ff875f;
+}
+
+.text-banner p {
+    font-size: 18px;
+    text-align: left;
+    font-family: "Open Sans";
+}
+
+.text-banner img {
+    border-radius: 50% 50%;
+    width: 300px;
+}
+
+//.cbp-af-header .navbar-brand {
+//    visibility: visible;
+//}
 .cbp-af-header-shrink .navbar-brand {
     visibility: visible;
+    height: 40px;
+}
+
+.cbp-af-header-shrink .navbar-brand img {
+    height: 40px;
+    box-shadow: none;
 }
 
 .navbar.navbar-default {
-    background-color: transparent;
-    color: #2e2e2e;
-    //    color: rgba(255, 255, 255, 0.84);
+    background-color: #2e2e2e;
+    //    background-color: transparent;
+    //    color: #2e2e2e;
+    color: rgba(255, 255, 255, 0.84);
 }
 
 .navbar img {
-    height: 40px;
+    height: 120px;
     padding-bottom: 5px;
+    background-color: #2e2e2e;
+    box-shadow: 2px 2px 10px 2px;
+//  transition-height: all 0.8s;
+    transition: height 0.8s;
 }
 
 .fill-screen {
@@ -70,6 +113,7 @@ header {
 
 html,
 body {
-    font-family: sans-serif;
+    font-family: "Raleway", sans-serif;
     height: 100%;
+    background-color: #f2f2f2;
 }
