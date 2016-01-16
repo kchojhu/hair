@@ -10,18 +10,17 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap-material-design/dist/css/ripples.css" />
+    <link rel="stylesheet" href="../bower_components/formstone/dist/css/background.css" />
     <!-- endbower -->
     <!-- endbuild -->
-
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="/bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" rel="stylesheet">
-    <link href="/bower_components/bootstrap-material-design/dist/css/ripples.min.css" rel="stylesheet">
-    <link href="/bower_components/formstone/dist/css/background.css" rel="stylesheet">
-
-
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -33,7 +32,7 @@
 </head>
 
 <body>
-    <header id="video-wallpaper">
+    <header>
         <div class="navbar navbar-default navbar-fixed-top cbp-af-header">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -60,15 +59,18 @@
     </header>
 
     <div class="container-fluid">
+        <div class="row">
+            <div class="fill-screen" style="background-image: url(../images/Salon_Banner.jpg) "></div>
+        </div>
         <div class="row text-banner">
             <h1 class="col-md-12">ABOUT US</h1>
             <div class="container">
                 <p class=" col-md-8 ">Talk by Andy, we believe there is much more to a great style than just the cut and color. We feel passionately about encouraging our clients to properly care for their hair after their initial visit. Our staff is extensively trained to always prescribe the appropriate care regimen for your particular needs by educating our clients with our large variety of hair products. We have partnered with Aveda to bring you products that will benefit you through exceptional performance, while continuing to deliver promise of environmental and social responsibility.</p>
-                <img class="col-md-2 " src="resource/img/Andy2.jpg ">
+                <img class="col-md-2 " src="../images/Andy2.jpg">
             </div>
         </div>
-        <div class="row " style=" ">
-            <div class="fill-screen fixed-attachment " style="background-image: url(resource/img/aboutus.jpeg) "></div>
+        <div class="row">
+            <div class="fill-screen fixed-attachment " style="background-image: url(../images/aboutus.jpeg) "></div>
         </div>
         <div class="row activity-section ">
             <div class="activity-element col-md-4 ">
@@ -79,19 +81,19 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js "></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="../bower_components/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="../bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="../bower_components/classie/classie.js"></script>
+    <script src="../bower_components/AnimatedHeader/js/cbpAnimatedHeader.js"></script>
+    <script src="../bower_components/formstone/dist/js/core.js"></script>
+    <script src="../bower_components/formstone/dist/js/background.js"></script>
+    <script src="../bower_components/formstone/dist/js/transition.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-    <script src="/bower_components/bootstrap/dist/js/bootstrap.js "></script>
-    <script src="/bower_components/bootstrap-material-design/dist/js/material.js "></script>
-    <script src="/bower_components/bootstrap-material-design/dist/js/ripples.js "></script>
-    <script src="/bower_components/AnimatedHeader/js/classie.js "></script>
-    <script src="/bower_components/AnimatedHeader/js/cbpAnimatedHeader.js "></script>
-    <script src="/bower_components/formstone/dist/js/core.js "></script>
-    <script src="/bower_components/formstone/dist/js/transition.js "></script>
-    <script src="/bower_components/formstone/dist/js/background.js "></script>
-    <!--    <script src="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.js "> -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js "></script>
     <!-- endbuild -->
