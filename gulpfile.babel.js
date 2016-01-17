@@ -100,6 +100,7 @@ gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
 
 gulp.task('serve', ['styles', 'fonts'], () => {
     browserSync({
+        browser: "google-chrome-stable",
         notify: false,
         port: 9000,
         server: {

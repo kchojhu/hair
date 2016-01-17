@@ -2,14 +2,20 @@ $font-stack: "Sans-serif";
 $body-background-color: #f2f2f2;
 $section-header-undescore-color: #ff875f;
 $navbar-background-color:#2e2e2e;
-html {
-    font-size: 62.5%;
-}
-
 body {
     font-family: $font-stack;
-    height: 100%;
     background-color: $body-background-color;
+}
+
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.down-button i {
+    //    color: white;
 }
 
 .navbar {
@@ -115,6 +121,17 @@ header {
 
 .fixed-attachment {
     background-attachment: fixed;
+}
+
+@media (max-width: 900px) {
+    .navbar img {
+        height: 40px;
+        padding-bottom: 5px;
+        background-color: #2e2e2e;
+        box-shadow: none;
+        //  transition-height: all 0.8s;
+        transition: none;
+    }
 }
 
 @media (max-width: 1024px) {

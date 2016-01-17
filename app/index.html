@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="../bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap-material-design/dist/css/ripples.css" />
     <link rel="stylesheet" href="../bower_components/formstone/dist/css/background.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -41,16 +42,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#Home" class="navbar-brand"><img src="resource/img/hairtalk-dark_600x211.png"> </a>
+                    <a href="#home" class="navbar-brand"><img src="resource/img/hairtalk-dark_600x211.png"> </a>
                 </div>
                 <div class="navbar-collapse collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#about">About Us</a></li>
-                        <li><a href="#services">Services</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <!--                        <li><a href="#services">Services</a></li>
                         <li><a href="#appointments">Appointments</a></li>
                         <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>-->
                     </ul>
                 </div>
             </div>
@@ -59,10 +60,18 @@
     </header>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="fill-screen" style="background-image: url(../images/Salon_Banner.jpg) "></div>
+        <div id="home" class="row">
+            <div class="fill-screen" style="background-image: url(../images/Salon_Banner.jpg) ">
+                <div>Test</div>
+                <div class="down-button">
+                    <a class="btn">
+                        <i class="fa fa-arrow-circle-down fa-5x"></i>
+                    </a>
+                </div>
+            </div>
+
         </div>
-        <div class="row text-banner">
+        <div id="about" class="row text-banner">
             <h1 class="col-md-12">ABOUT US</h1>
             <div class="container">
                 <p class=" col-md-8 ">Talk by Andy, we believe there is much more to a great style than just the cut and color. We feel passionately about encouraging our clients to properly care for their hair after their initial visit. Our staff is extensively trained to always prescribe the appropriate care regimen for your particular needs by educating our clients with our large variety of hair products. We have partnered with Aveda to bring you products that will benefit you through exceptional performance, while continuing to deliver promise of environmental and social responsibility.</p>
@@ -91,6 +100,8 @@
     <script src="../bower_components/formstone/dist/js/core.js"></script>
     <script src="../bower_components/formstone/dist/js/background.js"></script>
     <script src="../bower_components/formstone/dist/js/transition.js"></script>
+    <script src="../bower_components/scrollspy/build/scrollspy.js"></script>
+    <script src="../bower_components/jquery-easing/jquery.easing.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

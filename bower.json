@@ -6,25 +6,39 @@
         "bootstrap-material-design": "~0.5.7",
         "AnimatedHeader": "*",
         "formstone": "Formstone#~0.8.35",
-        "bootstrap": "~3.3.6"
+        "bootstrap": "~3.3.6",
+        "font-awesome": "fontawesome#~4.5.0",
+        "scrollspy": "~0.1.2",
+        "jquery-easing": "*"
     },
     "overrides": {
         "bootstrap": {
             "main": [
-                "dist/css/bootstrap.css"]
+        "dist/css/bootstrap.css"
+      ]
+        },
+        "jquery-easing": {
+            "main": [
+        "jquery.easing.js"
+      ]
+        },
+        "font-awesome": {
+            "main": [
+        "css/font-awesome.css"
+      ]
         },
         "AnimatedHeader": {
             "main": [
-                "js/cbpAnimatedHeader.js"
-            ]
+        "js/cbpAnimatedHeader.js"
+      ]
         },
         "formstone": {
             "main": [
-                "dist/css/background.css",
-                "dist/js/core.js",
-                "dist/js/background.js",
-                "dist/js/transition.js"
-            ]
+        "dist/css/background.css",
+        "dist/js/core.js",
+        "dist/js/background.js",
+        "dist/js/transition.js"
+      ]
         }
     },
     "devDependencies": {
