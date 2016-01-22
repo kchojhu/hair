@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="../bower_components/bootstrap-material-design/dist/css/ripples.css" />
     <link rel="stylesheet" href="../bower_components/formstone/dist/css/background.css" />
     <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="../bower_components/nanogallery/dist/css/nanogallery.css" />
+    <link rel="stylesheet" href="../bower_components/animate.css/animate.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -48,8 +50,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About Us</a></li>
-                        <!--                        <li><a href="#services">Services</a></li>
-                        <li><a href="#appointments">Appointments</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <!--<li><a href="#appointments">Appointments</a></li>
                         <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#contact">Contact Us</a></li>-->
                     </ul>
@@ -61,12 +63,18 @@
 
     <div class="container-fluid">
         <div id="home" class="row">
-            <div class="fill-screen" style="background-image: url(../images/Salon_Banner.jpg) ">
-                <div>Test</div>
+            <div class="fill-screen stellar-bg" data-stellar-background-ratio="0.2" style="background-image: url(../images/Salon_Banner.jpg) ">
                 <div class="down-button">
-                    <a class="btn">
+                    <div>
+                        <h1>Book Your Next Hair Styling</h1>
+                        <p>9191 Baltimore National Pike
+                            <br/>Ellicott City, MD 21042
+                            <br/>410 - 750 - 0280</p>
+                    </div>
+                    <a href="#about" class="btn">
                         <i class="fa fa-arrow-circle-down fa-5x"></i>
                     </a>
+
                 </div>
             </div>
 
@@ -74,16 +82,35 @@
         <div id="about" class="row text-banner">
             <h1 class="col-md-12">ABOUT US</h1>
             <div class="container">
-                <p class=" col-md-8 ">Talk by Andy, we believe there is much more to a great style than just the cut and color. We feel passionately about encouraging our clients to properly care for their hair after their initial visit. Our staff is extensively trained to always prescribe the appropriate care regimen for your particular needs by educating our clients with our large variety of hair products. We have partnered with Aveda to bring you products that will benefit you through exceptional performance, while continuing to deliver promise of environmental and social responsibility.</p>
+                <p class=" col-md-8 ">We believe that continuing education and practical training of our staff ensures an excellent experience for our clientele. Taking classes at nationally recognized Aveda institutes, keeping up with current trends in art and fashion are integral parts of our growth as beauty professionals.
+                    <br/>
+                    <br/> From customizing a haircut, to recommending a hair color that will enhance your skin tone and eye color, we will design a look to fit your personality and lifestyle.
+                    <br/>
+                    <br/> At Hair Talk by Andy, we believe there is much more to a great style than just the cut and color. We feel passionately about encouraging our clients to properly care for their hair after their initial visit. Our staff is extensively trained to always prescribe the appropriate care regimen for your particular needs by educating our clients with our large variety of hair products. We have partnered with Aveda to bring you products that will benefit you through exceptional performance, while continuing to deliver promise of environmental and social responsibility.</p>
                 <img class="col-md-2 " src="../images/Andy2.jpg">
             </div>
         </div>
         <div class="row">
             <div class="fill-screen fixed-attachment " style="background-image: url(../images/aboutus.jpeg) "></div>
         </div>
-        <div class="row activity-section ">
-            <div class="activity-element col-md-4 ">
-
+        <div id="services" class="row activity-section ">
+            <div class="activity-element col-md-4 wow fadeInDown">
+                <h2>Orienteering</h2>
+                <p>Lorem ipsum dor sit, amet, kejreijrei ireji rejier jijijdfj</p>
+            </div>
+            <div class="activity-element col-md-4 wow">
+                <h2>Orienteering</h2>
+                <p>Lorem ipsum dor sit, amet, kejreijrei ireji rejier jijijdfj</p>
+            </div>
+            <div class="activity-element col-md-4 wow">
+                <h2>Orienteering</h2>
+                <p>Lorem ipsum dor sit, amet, kejreijrei ireji rejier jijijdfj</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="gallery">
+                <a href="../images/gallery1.png" data-ngthumb="../images/gallery1.png"></a>
+                <a href="../images/gallery2.jpg" data-ngthumb="../images/gallery2.jpg"></a>
             </div>
         </div>
     </div>
@@ -102,6 +129,9 @@
     <script src="../bower_components/formstone/dist/js/transition.js"></script>
     <script src="../bower_components/scrollspy/build/scrollspy.js"></script>
     <script src="../bower_components/jquery-easing/jquery.easing.js"></script>
+    <script src="../bower_components/jquery.stellar/jquery.stellar.js"></script>
+    <script src="../bower_components/wow/dist/wow.js"></script>
+    <script src="../bower_components/nanogallery/dist/jquery.nanogallery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

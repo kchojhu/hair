@@ -5,13 +5,39 @@ $navbar-background-color:#2e2e2e;
 body {
     font-family: $font-stack;
     background-color: $body-background-color;
+    opacity: 0;
 }
 
 .down-button {
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
+    color: whitesmoke;
     width: 100%;
     text-align: center;
+}
+
+.down-button>div {
+    border-radius: 20px;
+    opacity: 0.9;
+    margin: 0 auto;
+    width: 400px;
+    background: $navbar-background-color;
+    text-align: center;
+}
+
+.down-button div a {
+    background: transparent;
+    width: auto;
+}
+
+.down-button h1 {
+    font-size: 4.6rem;
+    //    color: gray;
+}
+
+.down-button p {
+    font-size: 1.8rem;
+    //    color: gray;
 }
 
 .down-button i {
@@ -21,7 +47,7 @@ body {
 .navbar {
     padding: 30px 15px;
     margin-bottom: 0;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .text-banner {
@@ -54,7 +80,7 @@ body {
 
 .text-banner img {
     border-radius: 50% 50%;
-    width: 300px;
+    width: 350px;
 }
 
 //.cbp-af-header .navbar-brand {
@@ -81,12 +107,14 @@ body {
     background-color: #2e2e2e;
     box-shadow: 2px 2px 10px 2px;
     //  transition-height: all 0.8s;
-    transition: height 0.8s;
+    transition: height 1s;
 }
 
 .fill-screen {
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .navbar.navbar-default.cbp-af-header-shrink {

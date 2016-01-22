@@ -9,12 +9,22 @@
         "bootstrap": "~3.3.6",
         "font-awesome": "fontawesome#~4.5.0",
         "scrollspy": "~0.1.2",
-        "jquery-easing": "*"
+        "jquery-easing": "*",
+        "jquery.stellar": "stellar.js#~0.6.2",
+        "wow": "wow.js#~1.1.2",
+        "nanogallery": "~5.9.1",
+        "animate.css": "~3.5.1"
     },
     "overrides": {
         "bootstrap": {
             "main": [
         "dist/css/bootstrap.css"
+      ]
+        },
+        "nanogallery": {
+            "main": [
+        "dist/css/nanogallery.css",
+          "dist/jquery.nanogallery.js"
       ]
         },
         "jquery-easing": {
